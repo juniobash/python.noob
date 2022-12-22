@@ -1,6 +1,6 @@
 # python.noob
 
-## Subtitulo
+## Primeiros passos em python
 
 ~~~python
 nome = "samuel oliveira"
@@ -69,4 +69,4 @@ print(f"Quantidade de pecas para o mes {mes}, sera de {previsao}")
 
 ~~~
 
-'python playground-1.py'
+`python playground-1.py`
