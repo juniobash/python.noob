@@ -70,3 +70,61 @@ print(f"Quantidade de pecas para o mes {mes}, sera de {previsao}")
 ~~~
 
 `python playground-1.py`
+
+## Comparações em python
+~~~python
+valorDeA = 3
+valorDeB = 5
+
+# a menor que b
+print(valorDeA < valorDeB)
+
+#a maior que b
+print(valorDeA > valorDeB)
+
+#a menor igual a b
+print(valorDeA <= valorDeB)
+
+#a maior igual a b
+print(valorDeA >= valorDeB)
+
+#a igual de b
+print(valorDeA == valorDeB)
+
+#a diferente de b)
+print(valorDeA != valorDeB)
+
+# a identico a b / para objetos
+print(valorDeA is valorDeB)
+
+# a nao identico a b / para objetos
+print(valorDeA is not valorDeB)
+
+~~~
+`python playground-2.py`
+
+## Condicional If/Else em python
+~~~python
+#Teste Condicionais IF/ELSE
+saldoAtualCliente = 15
+saldoProximoCliente = 10
+
+if saldoAtualCliente < saldoProximoCliente :
+    print("saldo do cliente atual e menor que o saldo do proximo cliente")
+
+    fechamentoCaixa = saldoAtualCliente + saldoProximoCliente
+    print(f"Vendas do dia: {fechamentoCaixa}")
+else :
+    print("saldo do cliente atual e maior que o saldo do proximo cliente")
+    
+    fechamentoCaixa = saldoAtualCliente + saldoProximoCliente - 8
+    print(f"Venda do dia - 8 reais de gastos: {fechamentoCaixa}")
+~~~
+`python playground-3.py`
+
+<!---
+## Subtitulo
+~~~python
+~~~
+`python playground-0.py`
+--->
